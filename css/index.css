@@ -1,0 +1,42 @@
+table tr {
+    border: 1px solid rgb(131,131,131);
+}
+
+table img {
+    width: 110px;
+    border: 1px solid rgb(232,232,232);
+}
+
+td > * {
+    float: left;
+}
+
+aside ul img {
+    width: 160px;
+}
+
+aside li {
+    float: left;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: rgb(34,34,34);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+.detalhes_compra {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
