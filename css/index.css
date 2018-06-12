@@ -31,13 +31,13 @@ table img {
     border: 1px solid rgb(232,232,232);
 }
 
-td, aside ul, footer nav ul {
+td, section ul, footer nav ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-aside ul img {
+section ul img {
     width: 160px;
 }
 
